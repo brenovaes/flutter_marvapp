@@ -140,7 +140,7 @@ class LoginPage extends GetView<LoginController> {
                                           Get.overlayContext.hideLoaderOverlay();
                                         }
                                       }*/
-                                      Get.toNamed(Routes.HOME);
+                                      Get.offAllNamed(Routes.HOME);
                                     }),
                                 SizedBox(
                                   height: 24,
